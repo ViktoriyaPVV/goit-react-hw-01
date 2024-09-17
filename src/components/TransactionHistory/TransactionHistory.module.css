@@ -1,0 +1,36 @@
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.thead {
+  background-color: rgb(47, 47, 47);
+}
+
+.th {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: aliceblue;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.td {
+  text-align: center;
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+}
+
+.tdl {
+  padding: 5px 50px 5px 50px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.tr:nth-child(even) {
+  background-color: #9d9d9d;
+}
